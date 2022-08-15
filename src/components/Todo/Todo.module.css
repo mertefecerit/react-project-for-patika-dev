@@ -1,0 +1,11 @@
+.page {
+    @apply bg-slate-300 min-h-screen flex justify-center items-start
+}
+
+.wrapper {
+    @apply flex flex-col gap-2 bg-white py-5 w-[500px] mt-2
+}
+
+.appTitle {
+    @apply text-center text-2xl
+}

@@ -1,14 +1,10 @@
-import './index.css';
-import Header from './components/Header';
+import Todo from "./components/Todo";
 
-const cities = ["Ankara","İstanbul","Aydın","İzmir","çok hojdir","ama benana"]
 
 function App() {
-  return (
-    <>
-      <Header text={'Header'} cities={cities}/>
-    </>
-  );
+    return (
+        <Todo />
+    )
 }
 
 export default App;
